@@ -10,7 +10,7 @@ type HistoryBatch struct {
 }
 
 type CheckLinksResponse struct {
-	BatchID   int               `json:"batch_id"`  // 1
-	Links     map[string]string `json:"links"`     // {"google.com": "available", ...}
-	Timestamp string            `json:"timestamp"` // "2025-12-07T22:30:45.123456Z"
+	BatchID   int               `json:"batch_id"`
+	Links     map[string]string `json:"links"`
+	Timestamp string            `json:"timestamp"`
 }
